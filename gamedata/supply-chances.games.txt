@@ -1,0 +1,45 @@
+"Games"
+{
+	"nmrih"
+	{
+		"Signatures"
+		{
+			"CItem_InventoryBox::AddItem"
+			{
+				// void (const char*)
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x83\xEC\x10\x56\x8D\x45\xF0\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A\x50"
+				"linux" "@_ZN18CItem_InventoryBox7AddItemEPKc"
+			}
+
+			"CItem_InventoryBox::RemoveItem"
+			{
+				// void (ItemCategories::category_e  const&, int)
+				"library" "server"
+				"windows" "\x55\x8B\xEC\x51\x8B\x45\x08\x57\x8B\xF9\x8B\x00\x48\x74\x2A\x48\x74\x2A\x48"
+				"linux" "@_ZN18CItem_InventoryBox10RemoveItemERKN14ItemCategories10category_eEi"
+			}
+		}
+
+		"Offsets"
+		{
+			"CItem_InventoryBox::m_iAmmoItemIds"
+			{
+				"windows" "1936"
+				"linux" "1956"
+			}
+
+			"CItem_InventoryBox::m_iGearItemIds"
+			{
+				"windows" "1920"
+				"linux" "1940"
+			}
+
+			"CItem_InventoryBox::m_WeaponArray"
+			{
+				"windows" "1888"
+				"linux" "1908"
+			}
+		}
+	}
+}
