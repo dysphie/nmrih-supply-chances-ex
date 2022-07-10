@@ -17,7 +17,7 @@
 				// void (ItemCategories::category_e  const&, int)
 				"library" "server"
 				"windows" "\x55\x8B\xEC\x51\x8B\x45\x08\x57\x8B\xF9\x8B\x00\x48\x74\x2A\x48\x74\x2A\x48"
-				"linux" "@_ZN18CItem_InventoryBox10RemoveItemERKN14ItemCategories10category_eEi"
+				"linux" "@_ZN18CItem_InventoryBox10RemoveItemERKN14ItemCategories10category_eEib"
 			}
 		}
 
