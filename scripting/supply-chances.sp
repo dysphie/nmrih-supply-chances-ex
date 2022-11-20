@@ -5,7 +5,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define SUPPLY_CHANCES_VERSION "1.1.3"
+#define SUPPLY_CHANCES_VERSION "1.1.4"
 
 public Plugin myinfo =
 {
